@@ -6,4 +6,5 @@ Modifications made:
  - Starts Snipping Tool (C:\Windows\System32\snippingtool.exe /clip) to grab image from screen
  - Pulls image from clipboard instead of saved image file
  - Pads image to enhance the OCR ability to recognize a screen capture with a small border around text
- - Preforms OCR on text and pushes result to the clipboard for easy pasting
+ - Preforms OCR on text, pushes a notification with the resulting text (or \_NTF if no text is found)
+ - Pushes result to clipboard for easy pasting
