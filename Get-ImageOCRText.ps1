@@ -138,7 +138,7 @@ Process
             break
         }
 
-        # The following converts from System.Drawing.Bitmap to and OCREngine result
+        # The following converts from System.Drawing.Bitmap to an OCREngine result
         $stream = New-Object System.IO.MemoryStream
         $p.save($stream,"BMP")
         [Streams.IRandomAccessStream] $randomaccessstream = [System.IO.WindowsRuntimeStreamExtensions]::AsRandomAccessStream($stream)
